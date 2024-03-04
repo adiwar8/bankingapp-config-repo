@@ -2,7 +2,7 @@ spring:
   application:
     name: bankingapp-fundtransfer-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/FSD_Training
+    url: jdbc:postgresql://db:5432/FSD_Training
     username: postgres
     password: postgres
   jpa:
@@ -23,7 +23,7 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-
+    
 # Actuator Endpoints
 management:
   endpoints:
