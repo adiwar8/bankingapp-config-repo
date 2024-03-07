@@ -2,7 +2,7 @@ spring:
   application:
     name: bankingapp-account-service
   datasource:
-    url: jdbc:postgresql://db:5432/FSD_Training
+    url: jdbc:postgresql://db:5433/FSD_Training
     username: postgres
     password: postgres
   jpa:
